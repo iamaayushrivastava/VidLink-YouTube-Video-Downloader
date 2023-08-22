@@ -6,14 +6,18 @@ Here's a stepwise breakdown of the code for VidLink:
 
 1. Import the YouTube class from the Pytube library.
 2. Prompt the user to input the YouTube video link they want to download.
-3. Print a message indicating that the download is in progress.
-4. Create a YouTube object by passing the provided video link.
-5. Retrieve the stream with the highest available resolution using the get_highest_resolution() method.
+3. Create a YouTube object by passing the provided video link.
+4. The user is presented with the available video quality options, and they can choose a stream by entering the corresponding number. 
+5. Print a message indicating that the download is in progress.
 6. Inform the user about the title of the video that is being downloaded.
-7. Download the video stream to the current working directory using the download() method.
-8. Display a message indicating that the download was successful.
+8. Download the video stream to the current working directory using the download() method.
+9. Display a message indicating that the download was successful.
 
-With this code, users can quickly and efficiently download YouTube videos in the best quality without any complexity. Just copy and paste the video link, and VidLink will take care of the rest!
+With this code, users can quickly and efficiently download YouTube videos of the best quality without any complexity. Just copy and paste the video link, and VidLink will take care of the rest!
+
+### Note
+* VidLink 1.0 - Retrieve the stream with the highest available resolution using the get_highest_resolution() method.
+* VidLink 1.1 - The user is presented with the available video quality options, and they can choose a stream by entering the corresponding number.
 
 ## Dependencies
 
